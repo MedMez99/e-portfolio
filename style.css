@@ -279,6 +279,10 @@ nav ul li a:hover::after {
 .btn:hover {
     background: #ababab;
 }
+}
+.intro {
+    font-family: Book Antiqua ;
+}
 /* --------------contact----------- */
 .contact-left{
     flex-basis: 35%;
@@ -333,17 +337,8 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-.copyright{
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #262626;
-    font-weight: 300;
-    margin-top: 20px;
-}
-.copyright i {
-    color: #ff004f;
-}
+
+
 
 /* --------------css for small screen---------- */
 nav .fa-solid.fa-xmark,
@@ -367,7 +362,7 @@ nav .fa-solid.fa-xmark,
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #aaa9ac;
         position: fixed;
         top: 0;
         right: -200px;
@@ -406,8 +401,5 @@ nav .fa-solid.fa-xmark,
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
-    }
-    .copyright{
-        font-size: 14px;
-    }
+   
 }
